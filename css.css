@@ -1,0 +1,61 @@
+ /* Section Styling */
+.service-section {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .section-title h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Swiper Wrapper */
+  .service-section-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  /* Individual Card */
+  .section-card {
+    width: 220px;
+    background-color: #0a4c28; /* Dark green */
+    border-radius: 16px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+  }
+  
+  .section-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header */
+  .card-top {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Image Styling */
+  .card-image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+  }
+  
+  /* Swiper Nav Buttons */
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #0a4c28;
+  }
+  

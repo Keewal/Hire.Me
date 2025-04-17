@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hire.Me - Signup</title>
+  <link rel="stylesheet" href="/hm.css" />
+   <!--swiper js-->
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+      <div class="left-nav">
+        <div class="dropdown-nav logo">
+          <i class="fas fa-bars"></i><span>Hire.Me</span>
+          <div class="dropdown-nav-content">
+            <a href="#">Get Started</a>
+            <a href="#">Work</a>
+            <a href="#">Q&A</a>
+            <a href="#">Feedback</a>
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropdown-btn">HireMe.Pro ▼</button>
+          <div class="dropdown-content">
+            <a href="/join-client">Join as Client</a>
+            <a href="/join-worker">Join as Worker</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropdown-btn">Explore ▼</button>
+          <div class="dropdown-content">
+            <a href="/plumber">Plumber</a>
+            <a href="/broker">Broker</a>
+            <a href="/mechanic">Mechanic</a>
+            <a href="/housecleaner">House Cleaner</a>
+            <a href="/worker">Worker</a>
+            <a href="/shipping">Shipping</a>
+            <a href="/book-truck">Book a Truck</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropdown-btn">English ▼</button>
+          <div class="dropdown-content">
+            <a href="#">Spanish</a>
+            <a href="#">French</a>
+            <a href="#">German</a>
+            <a href="#">Hindi</a>
+            <a href="#">Arabic</a>
+            <a href="#">Chinese</a>
+            <a href="#">Japanese</a>
+            <a href="#">Russian</a>
+            <a href="#">Portuguese</a>
+            <a href="#">Urdu</a>
+          </div>
+        </div>
+        <div class="auth-buttons">
+          <a href="/signup">Sign Up</a>
+          <a href="/join">Join</a>
+        </div>
+      </div>
+    </header>
+  
+    <section class="hero">
+      <h1>Find the Right Expert for Your Job</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search e.g. Plumber, Mechanic, Broker...">
+        <button>Search</button>
+      </div>
+      <div class="tags">
+        <button onclick="location.href='/plumber'">Plumber</button>
+        <button onclick="location.href='/mechanic'">Mechanic</button>
+        <button onclick="location.href='/broker'">Broker</button>
+        <button onclick="location.href='/cleaner'">Cleaner</button>
+        <button onclick="location.href='/shipping'">Shipping</button>
+      </div>
+    </section>
+
+
+<!--Swiper 2nd landing page
+<section class="service-section">
+  <div class="section-title">
+      <h2>
+          Popular Services! 
+      </h2>
+  </div>
+ 
+  <div class="service-section-outter swiper">
+      <div class="service-section-container swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="section-card ">
+              <img src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+          <div class="service-card-container">
+              <h5>Add text !</h5>
+              <h2>ai Text!</h2>
+          </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://plus.unsplash.com/premium_photo-1672287578699-618ea6dbcc9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+          
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+          
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://plus.unsplash.com/premium_photo-1678453147437-260a41db02dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+          
+          </div> 
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://images.unsplash.com/photo-1552581234-26160f608093?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+          
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+          
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="section-card ">
+              <img src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fHdvcmt8ZW58MHx8MHx8fDA%3D" alt="">
+              <div class="service-card-container">
+                  <h5>Add text !</h5>
+                  <h2>ai Text!</h2>
+              </div>
+            </div>
+          </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div> 
+  </div>
+  </section>-->
+<section class="service-section">
+    <div class="section-title">
+      <h2>Popular Services!</h2>
+    </div>
+  
+    <div class="service-section-outter swiper">
+      <div class="service-section-container swiper-wrapper">
+  
+        <!-- Card 1 -->
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>Website Development</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?w=500" alt="Website Development">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>Logo Design</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://plus.unsplash.com/premium_photo-1672287578699-618ea6dbcc9e?w=500" alt="Logo Design">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Add more cards as needed following the same pattern -->
+        <!-- Example for SEO -->
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>SEO</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=500" alt="SEO">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>SEO</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=500" alt="SEO">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>SEO</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=500" alt="SEO">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="section-card">
+            <div class="card-top">
+              <h3>SEO</h3>
+            </div>
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=500" alt="SEO">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div> 
+</div>
+      
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.service-section-outter', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  slidesPerView: 5,
+      centeredSlides: false,
+      slidesPerGroupSkip: 1,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+</html>
